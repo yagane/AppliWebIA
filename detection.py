@@ -3,7 +3,7 @@ import math
 import cv2
 
 model = YOLO("yolo-Weights/yolov9c.pt")
-model.to('cuda')
+model.to('cpu')
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",

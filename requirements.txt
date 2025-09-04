@@ -1,0 +1,7 @@
+Flask==3.0.0
+cefpython3==66.1
+mistralai
+ultralytics
+opencv-python
+markdown2
+pyinstaller
